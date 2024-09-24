@@ -16,14 +16,14 @@
  * );
  */
 import { useEffect } from "react";
-import useFacebookPixel from "./hooks/facebookPixelHook";
+// import useFacebookPixel from "./hooks/facebookPixelHook";
 import {
   facebookPageView,
   facebookSubmitFormEvent,
 } from "./utils/facebookEvents";
 
 const App = () => {
-  useFacebookPixel();
+  // useFacebookPixel();
 
   useEffect(() => {
     // Sample code for tracking events using Facebook Pixel
